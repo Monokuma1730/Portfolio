@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Me envie uma mensagem</title>
+    <link rel="shortcut icon" type="imagex/png" href="./image/mensagem.png">
+    <style>
+        body{
+            overflow: hidden;
+                }
+        </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Meu incrível Portfólio</a></li>
+            <li><a href="./contato.html">Me mande um xingue ou um beijão</a></li>
+            <li><a href="./login.html">Batcomputador ^-^</a></li>
+        </ul>
+    </nav>
+        <div class="bg-form">
+            <div class="box-form"> 
+            <form name="form-contato">
+        
+                    <h1 class="fale-conosco">Me mande um recadinho!</h1>
+          
+                    <figure>
+                        <img style="text-align: center" src="./image/Escrevendo.jpg" alt="Monokuma no Computador">
+                        <figcaption>  (Eu recebendo xingamentos) </figcaption>
+                    </figure>
+
+                    <input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" />
+                    <label for="nome">Nome</label>
+        
+                    <input type="text" id="nascimentoid" placeholder="Digite sua data de nascimento" required="required" name="DataNasc" />
+                    <label for="nome">Data de nascimento</label>
+        
+                    <input type="text" id="escolaridadeid" placeholder="Digite sua escolaridade" required="required" name="escolaridade" />
+                    <label for="nome">Escolaridade</label>
+                
+                    <input type="tel" id="foneid" placeholder="(xx) xxxxx-xxxx" name="fone" />
+                    <label for="fone">Telefone</label>
+                    
+                    <input type="email" id="emailid" placeholder="Seu melhor email" name="email" />
+                    <label for="email">Email</label>
+                
+                    <textarea placeholder="Envie uma mensagem para mim"></textarea>
+        
+                    <br>
+                    <fieldset class="checkbox">
+                        <legend>O que você achou do site?</legend>
+                      
+                        <div>
+                          <input type="checkbox" id="like" name="like" checked />
+                          <label for="scales">Gostei</label>
+                        </div>
+                      
+                        <div>
+                          <input type="checkbox" id="deslike" name="deslike" />
+                          <label for="deslike">Não gostei</label>
+                        </div>
+                      </fieldset>
+                    
+                    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                </form>
+            </div>   
+        </div>    
+</body>
+</html>

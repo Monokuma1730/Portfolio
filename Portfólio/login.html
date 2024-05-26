@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="shortcut icon" type="imagex/png" href="./image/batcomputador.png">
+    <title>Batcomputador</title>
+    <style>
+        *{
+            box-sizing: border-box;
+                }
+        body{
+            overflow: hidden;
+                }
+        form{
+            width: 300px;
+            margin: 100px auto;
+            margin-top: 10px;
+            text-align: center;
+                }
+        input{
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30px;
+                }
+        </style>
+</head>
+<body div="login">
+    <nav>
+        <ul>
+            <li><a href="./index.html">Meu incrível Portfólio</a></li>
+            <li><a href="./contato.html">Me mande um xingue ou um beijão</a></li>
+            <li><a href="./login.html">Batcomputador ^-^</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="divisão">
+            <div class="Batman">
+                <h1>Batcomputador</h1>
+                <h3>Para descobrir o Admnistrador do Batcomputador, apenas digite o nome dos personagens abaixo</h3>
+                <figure>
+                    <img src="./image/Batman vs Coringa.jpg" alt="ADM Vs Senha">
+                    <figcaption>  Admnistrador vs Senha </figcaption>
+                </figure>
+            </div>
+            <form>
+                <h3>Login</h3>
+                <input type="text" placeholder="Login" id="login">
+                <input type="password" placeholder="Senha" id="senha">
+                <input type="submit" class="enviar" onclick="logar(); return false">
+            </form>
+        </div>
+        
+    </main>
+</body>
+
